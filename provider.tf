@@ -8,7 +8,7 @@ terraform {
      
     backend "s3" {
     bucket = "harika-remote-state"
-    key    = "remote-state-demo"
+    key    = "vpc-module"
     region = "us-east-1"
     dynamodb_table = "devops-locking"
   }
